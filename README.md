@@ -4,7 +4,15 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
+
+A Neural Network Regression Model is used to predict continuous numerical values such as house prices, temperature, or stock values. It consists of an input layer, hidden layers, and an output layer, where the output layer typically has a single neuron with a linear activation function. The model learns the relationship between input features and target values through training. During this process, input data is passed forward to generate predictions, and the error between predicted and actual values is measured using a loss function like Mean Squared Error (MSE). This error is then minimized using backpropagation and optimization algorithms such as Gradient Descent.
+
+These models are powerful because they can capture complex nonlinear patterns in data. However, they require proper preprocessing, sufficient data, and careful tuning to avoid overfitting or underfitting. Overall, neural network regression models are widely used for accurate prediction of continuous outcomes.
 Explain the problem statement
+
+Design and implement a Neural Network Regression Model to predict a continuous output value based on a single numerical input. Create a dataset using a spreadsheet tool (such as Google Sheets) containing input-output pairs representing a real-world relationship (e.g., hours studied vs marks scored or area vs house price). The dataset should be divided into training and testing sets to evaluate model performance.
+
+Preprocess the data using normalization techniques such as MinMax Scaling to ensure efficient training. Build and compile a neural network model using an appropriate architecture, then train it on the training data. Analyze the model’s performance by plotting training metrics such as loss over epochs. Finally, evaluate the model using testing data and use the trained model to predict outputs for new unseen input values.
 
 ## Neural Network Model
 <img width="743" height="623" alt="image" src="https://github.com/user-attachments/assets/c91c53e2-abfc-4adf-a2b0-072e26f9ecaa" />
